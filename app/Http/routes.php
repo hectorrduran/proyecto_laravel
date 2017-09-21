@@ -21,5 +21,9 @@ Route::get('notes', function(){
 
     //dd($note);
 
+<<<<<<< HEAD
 	return view('notes', compact('notegg'));
+=======
+	return view('notes', compact('noteq'));
+>>>>>>> admin
 });
