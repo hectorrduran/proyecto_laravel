@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcomes');
 });
 
 Route::get('notes', function(){
@@ -21,5 +21,5 @@ Route::get('notes', function(){
 
     //dd($note);
 
-	return view('notes', compact('note'));
+	return view('notes', compact('note2'));
 });
