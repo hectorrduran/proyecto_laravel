@@ -22,4 +22,8 @@ Route::get('notes', function(){
     //dd($note);
 	return view('notes', compact('note'));
 
+<<<<<<< .merge_file_a04424
+=======
+	return view('notes', compact('note1'));
+>>>>>>> .merge_file_a05260
 });
