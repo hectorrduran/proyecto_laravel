@@ -20,10 +20,15 @@ Route::get('notes', function(){
     $note=\App\Note::all();
 
     //dd($note);
-	return view('notes', compact('note'));
+<<<<<<< HEAD
+	return view('notes', compact('note1'));
 
 <<<<<<< .merge_file_a04424
 =======
 	return view('notes', compact('note1'));
 >>>>>>> .merge_file_a05260
+=======
+
+	return view('notes', compact('note2'));
+>>>>>>> username
 });
