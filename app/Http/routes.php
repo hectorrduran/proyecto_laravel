@@ -20,10 +20,6 @@ Route::get('notes', function(){
     $note=\App\Note::all();
 
     //dd($note);
+	return view('notes', compact('note'));
 
-<<<<<<< HEAD
-	return view('notes', compact('notegg'));
-=======
-	return view('notes', compact('noteq'));
->>>>>>> admin
 });
