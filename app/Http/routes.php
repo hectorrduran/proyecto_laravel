@@ -21,5 +21,5 @@ Route::get('notes', function(){
 
     //dd($note);
 
-	return view('notes', compact('noteq'));
+	return view('notes', compact('note1'));
 });
